@@ -138,7 +138,7 @@ export default function Home() {
                 <div style={styles.card}>
                     <h1 style={{ margin: 0, fontSize: 24 }}>Address Verifier</h1>
                     <p style={{ marginTop: 8, color: '#666' }}>
-                        Tải lên Excel/CSV có cột <code>address</code> (tuỳ chọn thêm <code>country</code>).
+                        Tải lên Excel/CSV có cột address
                     </p>
 
                     <div style={{ marginTop: 16, display: 'flex', gap: 8, flexWrap: 'wrap' }}>
@@ -156,7 +156,7 @@ export default function Home() {
                             onChange={handleFileChange}
                         />
                         <button onClick={verifyAll} disabled={rows.length === 0 || isVerifying} style={styles.verifyBtn}>
-                            {isVerifying ? `Đang kiểm tra… (${progress.done}/${progress.total})` : 'Verify (server)'}
+                            {isVerifying ? `Đang kiểm tra… (${progress.done}/${progress.total})` : 'Verify'}
                         </button>
                     </div>
 
