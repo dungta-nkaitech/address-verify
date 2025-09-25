@@ -194,7 +194,7 @@ export default function Home() {
                                                 <td style={styles.td}>{r.status}</td>
                                                 <td style={styles.td}>{r.score}</td>
                                                 <td style={styles.td}>{r.provider}</td>
-                                                <td style={{ ...styles.td, maxWidth: 250, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                                                <td style={{ ...styles.td, whiteSpace: 'nowrap' }}>
                                                     {r.input_address}
                                                 </td>
                                                 <td style={styles.td}>{r.country}</td>
