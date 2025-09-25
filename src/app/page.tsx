@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 import React, { useRef, useState } from 'react';
 import Head from 'next/head';
