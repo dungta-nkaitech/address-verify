@@ -214,7 +214,7 @@ export default function Home() {
                 </div>
 
                 <footer style={{ marginTop: 24, color: '#999', fontSize: 12 }}>
-                    © {new Date().getFullYear()} Address Verifier
+                    © {new Date().getFullYear()} Address Verifier by dungta
                 </footer>
             </main>
         </>
